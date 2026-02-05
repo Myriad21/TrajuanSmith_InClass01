@@ -264,18 +264,4 @@ class __TabsNonScrollableDemoState extends State<_TabsNonScrollableDemo>
     );
   }
 
-  Widget tab04(BuildContext context){
-    return MaterialApp(
-      title: 'idk',
-      home: Scaffold(
-        body: ListView(
-          children: [
-            ListTile(leading: Icon(Icons.mail), title: const Text('Mail')),
-            ListTile(leading: Icon(Icons.earbuds), title: const Text('Music')),
-          
-          ],
-        ),
-      ),
-    );
-  }
 }
